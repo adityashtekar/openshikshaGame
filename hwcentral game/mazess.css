@@ -1,0 +1,125 @@
+canvas{
+	background-image:url("grass.jpg");
+	background-color: rgba(0,0,0,0.7);
+	display:block;
+	margin:0 auto;
+	border-top:solid black;
+	border-left:solid black;
+	border-right:solid black;
+	}
+
+/*h1{
+	font-size: 20px;
+	
+	border-top-style: solid;
+	border-left-style:solid;
+	border-right-style:solid;
+	border-color:black;
+}
+*/
+#Question{
+		margin:0 auto;
+		font-family: "Verdana",  sans-serif;
+		color:black;
+		border-bottom-style: solid;
+		border-right-style:solid;
+		border-left-style: solid;
+		margin-top:0px;
+		width:500px;
+		text-align:center;
+		}
+#score{
+	
+	margin:0 auto;
+	line-width:500px;
+	line-height:30px;
+	border-top-style:solid;
+	border-left-style:solid;
+	border-right-style:solid;
+	color:black;
+	font-weight:bold;
+	width:500px;
+	text-align:center;
+	}
+#instruction-box{
+	position:relative;
+	top:-537px;
+	margin:0 auto;
+	width:500px;
+	height:500px;
+	-webkit-animation name: popup;
+	-webkit-animation duration: 2s;
+    animation-name: popup;
+    animation-duration: 2s;
+    /*-webkit-animation name: exit;
+    -webkit-animation-duration:0.4s;
+    animation-name: exit;
+    animation-duration: 2s;*/
+}
+@-webkit-keyframes popup {
+    from {opacity:0}
+    to {opacity:1}
+}
+@keyframes popup{
+	 from {opacity:0}
+    to {opacity:1}
+
+}
+/*@-webkit-keyframes exit {
+    from {top:0px; opacity:1}
+    to {top:-300px; opacity:0}
+}
+@keyframes exit{
+	 from {top:0px; opacity:1}
+    to {top:-300px; opacity:0}
+
+}*/
+
+#header{
+		background-color:#009900;
+		width:500px;
+		height:60px;
+		font-size:30px; 
+		font-weight:bold;
+		font-family:"Arial Black", Gadget, sans-serif;
+		overflow:auto;
+		text-align:center;
+		}
+
+#instructions{
+	padding:10px;
+	top:0px;
+	background-color:#00b300;
+	color:white;
+	font-size:17px;
+	height:270px;
+	padding-top:30px;
+	padding-bottom:30px;
+	}
+
+#instructions > ul{
+	margin-top: 0px;
+	padding-left:20px;
+}
+	
+#footer{
+	padding-top:27px;
+	background-color:#009900;
+	text-align:center;
+	height:85px;
+
+	
+}
+
+#playbutton{
+		
+		background-color: #0099ff;
+		width:100px;
+		height:50px;
+		align-content:center;
+	
+		border-width: 0px;
+		text-align:center;
+}
+
+

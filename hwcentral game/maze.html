@@ -1,0 +1,54 @@
+<html>
+	<head>
+			<title>Hwcentral maze</title>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+			<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+			<script type="text/javascript" src="pacman.js"></script>
+			
+			<link type="text/css" rel="stylesheet" href="mazess.css"></link>
+			<meta charset="UTF-8">		
+	</head>
+		<body>
+			<canvas id="maze">
+			</canvas>
+			
+				<div id="score">
+				</div>
+					<div id="box">
+						<p id="Question">
+						</p>
+					</div>
+				</div>
+				<div id="instruction-box">
+					<div id="header">
+						INSTRUCTIONS<br>
+						
+
+
+					</div>
+					<div id="instructions">
+						<ul>
+							<li>Control the monkey's <img src="monkey-face-cartoon.png" height="17px" width="17px"> direction using arrow keys.</li>
+							<li>The <img src="monkey-face-cartoon.png" height="17px" width="17px"> can reach the final destination after collecting 2 bananas <img src="banana1.png" height="17px" width="17px"/>.</li>
+							<li>On reaching the location of banana<img src="banana1.png" height="17px" width="17px"/>,you will be asked a question.</li>
+							<li>Only if you answer the question,you will recieve the banana <img src="banana1.png" height="17px" width="17px"/>,otherwise try answering at the next banana location.</li>
+							<li>Avoid the fire<img src="fire64.png" height="17px" width="17px"/>.Fire will injure the monkey and it won't be able to reach the destination</li>
+							<li>After collecting two bananas<img src="banana1.png" height="17px" width="17px"/>,the monkey <img src="monkey-face-cartoon.png" height="17px" width="17px"> should reach the final destination <img src="village-house-60px.png" height="17px" width="17px"> in order to finish the game</li>
+							<li>The speed of the monkey <img src="monkey-face-cartoon.png" height="17px" width="17px"> is slow initially.On pressing the key for a long time,the monkey will move faster.</li>
+							<li>There is more than one path to reach a location.Just think hard.</li>
+						</ul>
+					</div>
+					<div id="footer">
+						<button type="submit" id="playbutton">PLAY</button>
+					</div>
+
+				</div> 
+					
+				<!--<form>
+					<input type="radio" name="answer">Yes<br>
+					<input type="radio" name="answer">No<br>
+				</form>-->
+			</div>
+		</body>
+
+</html>
